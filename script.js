@@ -10,3 +10,9 @@ $(document).ready(function () {
 
     });
 });
+
+// menandai halaman aktif
+$(document).ready(function () {
+    var currentPage = location.pathname.split("/").slice(-1)[0];
+    $('.navbar-nav a[href="' + currentPage + '"]').addClass('active');
+});

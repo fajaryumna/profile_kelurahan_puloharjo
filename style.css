@@ -1,5 +1,5 @@
 p {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 
@@ -124,7 +124,8 @@ p {
 }
 
 /* Styling untuk profile page */
-.profile-section {
+.profile-section,
+.layanan-section {
     margin-top: 76px;
     padding: 40px;
 }
@@ -140,7 +141,50 @@ p {
     margin-bottom: 15px;
 }
 
-.profile-section p {
+.profile-section p,
+.profile-section ol li {
     color: #777;
     line-height: 1.6;
+}
+
+.geografis-table tr td {
+    font-size: 15px;
+    color: #777;
+    padding: 10px;
+}
+
+.header-samping {
+    font-weight: bold;
+    color: #555;
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+    .geografis-info {
+        flex-direction: column;
+    }
+
+    .geografis-photo {
+        max-width: 100%;
+        height: auto;
+        margin-right: 0;
+    }
+
+    .geografis-table td {
+        height: auto;
+    }
+}
+
+
+/* Layanan  page styling*/
+/* Custom styling for the active accordion header */
+.accordion-header button.accordion-button[aria-expanded="true"] {
+    background-color: #47494b;
+    color: #fafafa;
+}
+
+/* Custom styling for the arrow icon on the active accordion header */
+.accordion-header button.accordion-button[aria-expanded="true"]::after {
+    /* Adjust "white" to your desired arrow color */
+    color: white;
 }

@@ -3,6 +3,62 @@ p {
 }
 
 
+/* .btn-floating {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    border: 0;
+    z-index: 999;
+    transition: .2s;
+    background-color: #34af23;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-floating:hover {
+    width: 150px;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.btn-floating img {
+    width: 30px;
+    height: 30px;
+    transition: .2s;
+    display: inline-block;
+    opacity: 1;
+}
+
+.btn-floating span {
+    display: inline-block;
+
+    margin-left: 10px;
+    
+    font-size: 14px;
+    font-weight: bold;
+} */
+
+
+.whatsapp-floating {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 999;
+}
+
+.whatsapp-floating img {
+    width: 90px;
+    height: 90px;
+    display: block;
+}
+
+
+
 /* Styling navbar */
 .navbar {
     position: fixed;
@@ -233,6 +289,7 @@ p {
 
 } */
 
+
 .modal-content {
     padding: 10px;
 }
@@ -242,4 +299,42 @@ p {
     .galeri-container {
         grid-template-columns: 1fr;
     }
+}
+
+/* Kependudukan Section */
+.kependudukan-section {
+    padding: 40px;
+    margin-top: 76px;
+    background-color: #f9f9f9;
+}
+
+.kependudukan-section h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.kependudukan-section ul {
+    list-style-type: none;
+}
+
+.kependudukan-section li {
+    margin-bottom: 10px;
+}
+
+.kependudukan-section ul ul {
+    margin-left: 20px;
+}
+
+.kependudukan-section ul ul li {
+    margin-bottom: 5px;
+}
+
+/* Optional styling for different levels of sub-lists */
+.kependudukan-section ul ul ul {
+    margin-left: 40px;
+}
+
+.kependudukan-section ul ul ul li {
+    margin-bottom: 2px;
 }
